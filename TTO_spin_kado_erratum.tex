@@ -1,0 +1,124 @@
+% pdflatex TTO_spin_kado_erratum
+% pdflatex TTO_spin_kado_erratum
+
+\documentclass[%
+ reprint,
+%superscriptaddress,
+%groupedaddress,
+%unsortedaddress,
+%runinaddress,
+%frontmatterverbose, 
+%preprint,
+%preprintnumbers,
+%nofootinbib,
+%nobibnotes,
+%bibnotes,
+ amsmath,amssymb,
+ aps,
+%pra,
+%prb,
+%rmp,
+%prstab,
+%prstper,
+%floatfix,
+]{revtex4-2}
+
+\usepackage{graphicx}% Include figure files
+\usepackage{dcolumn}% Align table columns on decimal point
+\usepackage{bm}% bold math
+
+\begin{document}
+%%%%% Title %%%%%
+\title{
+Erratum: 
+Composite Spin and Quadrupole Wave in the Ordered Phase of Tb$_{2+x}$Ti$_{2-x}$O$_{7+y}$ 
+[SPIN 5, 1540003 (2015)]
+}
+%%%%%%%%%%%%%%%%%
+
+%%%%% Authors %%%%%
+\author{H. Kadowaki}%Hiroaki Kadowaki
+\address{Department of Physics, Tokyo Metropolitan University, 
+Hachioji-shi, Tokyo 192-0397, Japan}
+%\email{fauthor\_id@domain\_name}
+
+\author{H. Takatsu}%Hiroshi Takatsu
+\address{Department of Physics, Tokyo Metropolitan University, 
+Hachioji-shi, Tokyo 192-0397, Japan}
+%\email{sauthor\_id@domain\_name}}
+
+\author{T. Taniguchi}%Tomohiro Taniguchi
+\address{Department of Physics, Tokyo Metropolitan University, 
+Hachioji-shi, Tokyo 192-0397, Japan}
+
+\author{B. F{\aa}k}%Bj\"{o}rn F{\aa}k
+\address{Institute Laue Langevin, BP156, F-38042 Grenoble, France}
+
+\author{J. Ollivier}%Jacques Ollivier
+\address{Institute Laue Langevin, BP156, F-38042 Grenoble, France}
+
+%%%%%%%%%%%%%%%%%%%
+\date{\today}
+
+
+\maketitle
+
+%%%%%
+\begin{widetext}
+%
+
+We have become aware of an error in Eq.~(1) in the published paper. 
+It should read 
+%
+\begin{equation}
+| \pm 1 \rangle_{\text{D}} 
+= A | \mp 4 \rangle \pm B | \mp 1 \rangle + C | \pm 2 \rangle \mp D | \pm 5 \rangle \nonumber \; .
+\label{G_doublet}
+\end{equation}
+%
+This is an exchange of the ground doublet states $| \pm 1 \rangle_{\text{D}}$, 
+which is needed to use the same phases $\phi_{\bm{r},\bm{r}^{\prime}}$ of Eq.~(13) as 
+those of Ref.~\cite{Onoda2011}. 
+It affects six signs of Eqs.~(6) and (7) as follows: 
+%
+\begin{equation}
+J_x = J_y = 0 , \; J_z = - (4A^2+B^2-2C^2-5D^2) \sigma^z = - 3.40 \sigma^z \nonumber \; ,
+\label{mag}
+\end{equation}
+%
+and
+%
+\begin{eqnarray}
+\tfrac{1}{2}[ 3 J_z^2 -J(J+1)] &=& 
+3A^2 - \tfrac{39}{2} B^2 - 15 C^2 + \tfrac{33}{2} D^2 = 3.05 \; ,\nonumber\\
+%\label{quad1}
+%\end{eqnarray}
+%
+%\begin{eqnarray}
+\tfrac{\sqrt{3}}{2}[ J_x^2 - J_y^2] &=& 
+\left( -\tfrac{21 \sqrt{3}}{2} B^2 + 9 \sqrt{10} AC \right) \sigma^x =  3.00 \sigma^x ,\nonumber\\
+\tfrac{\sqrt{3}}{2}[ J_x J_y + J_y J_x ] &=& 
+- \left( -\tfrac{21 \sqrt{3}}{2} B^2 + 9 \sqrt{10} AC \right) \sigma^y =  - 3.00 \sigma^y ,\nonumber\\
+\tfrac{\sqrt{3}}{2}[ J_z J_x + J_x J_z ] &=& 
+- \left( 3 \sqrt{30} BC + 9 \sqrt{\tfrac{33}{2}} AD \right) \sigma^x =  -8.16 \sigma^x ,\nonumber\\
+\tfrac{\sqrt{3}}{2}[ J_y J_z + J_z J_y ] &=& 
+- \left( 3 \sqrt{30} BC + 9 \sqrt{\tfrac{33}{2}} AD \right) \sigma^y =  - 8.16 \sigma^y \nonumber \; .
+\label{quad2}
+\end{eqnarray}
+%
+These errors do not affect any other results and conclusions of the paper.
+
+%
+
+\begin{thebibliography}{9}
+\bibitem{Onoda2011}
+S. Onoda and Y. Tanaka, Phys. Rev. B 83, 094411 (2011).
+
+\end{thebibliography}
+
+\end{widetext}
+
+%
+
+\end{document}
+
